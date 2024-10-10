@@ -51,6 +51,10 @@ dos municípios brasileiros dividido por estado
 ### Brasil
 * BR / Brasil - [geojson/geojs-100-mun.json](geojson/geojs-100-mun.json)
 
+### Criar mapa coroplético do Estado de Santa Catarina em PowerBI
+[mapa-coropletico-santa-catarina-powerbi.md](mapa-coropletico-santa-catarina-powerbi.md)
+
+
 
 Fonte dos dados
 ---------------
@@ -60,6 +64,7 @@ Fonte dos dados
 Licença
 -------
 Creative Commons [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) - Dedicação ao Domínio Público. Ver arquivo [LICENSE.md](LICENSE.md)
+
 
 
 Projetos relacionados
