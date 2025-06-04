@@ -5,9 +5,17 @@ Estas instruções explicam como criar um mapa coroplético personalizado para o
 ## Requisitos:
 - Power BI Desktop instalado.
 - Arquivo de mapa no formato **TopoJSON** do estado de Santa Catarina.
+
+ * **SC / Santa Catarina** - [topojson-42-mun.json](topojson/topojson-42-mun.json)
+
+
   - Se o mapa estiver em GeoJSON ou Shapefile, você pode convertê-lo usando a ferramenta **Map Shaper**.
   - O formato do arquivo está no formato **GeoJSON**:
     * **SC / Santa Catarina** - [geojson/geojs-42-mun.json](geojson/geojs-42-mun.json)
+
+
+
+
 
 ## Passos:
 

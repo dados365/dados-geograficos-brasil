@@ -1,64 +1,41 @@
-﻿
-Geodata BR - Brasil
-===================
+﻿# 📊 Dados 365
 
-Este projeto contém arquivos [Geojson](http://geojson.org/) com os perímetros
-dos municípios brasileiros dividido por estado
+**Bem-vindo ao repositório oficial da comunidade Dados 365!**
 
+Aqui reunimos materiais e projetos voltados à **Inteligência de Negócios**, **Análise de Dados**, **Excel Avançado**, **Power BI**, **Data Mining** e muito mais. Nosso objetivo é compartilhar conhecimento prático e acessível, especialmente com foco no contexto brasileiro.
 
-### Região Norte
-* AC / Acre - [geojson/geojs-12-mun.json](geojson/geojs-12-mun.json)
-* AM / Amazonas - [geojson/geojs-13-mun.json](geojson/geojs-13-mun.json)
-* AP / Amapá - [geojson/geojs-16-mun.json](geojson/geojs-16-mun.json)
-* PA / Pará  - [geojson/geojs-15-mun.json](geojson/geojs-15-mun.json)
-* RO / Rondônia - [geojson/geojs-11-mun.json](geojson/geojs-11-mun.json)
-* RR / Roraima - [geojson/geojs-14-mun.json](geojson/geojs-14-mun.json)
-* TO / Tocantins - [geojson/geojs-17-mun.json](geojson/geojs-17-mun.json)
+Acompanhe também nossos conteúdos no [Instagram @dados_365](https://www.instagram.com/dados_365/), onde publicamos dicas, tutoriais e novidades sobre o universo dos dados.
 
+---
 
-### Região Nordeste
-* AL / Alagoas - [geojson/geojs-27-mun.json](geojson/geojs-27-mun.json)
-* BA / Bahia - [geojson/geojs-29-mun.json](geojson/geojs-29-mun.json)
-* CE / Ceará - [geojson/geojs-23-mun.json](geojson/geojs-23-mun.json)
-* MA / Maranhão - [geojson/geojs-21-mun.json](geojson/geojs-21-mun.json)
-* PB / Paraíba - [geojson/geojs-25-mun.json](geojson/geojs-25-mun.json)
-* PE / Pernambuco - [geojson/geojs-26-mun.json](geojson/geojs-26-mun.json)
-* PI / Piauí - [geojson/geojs-22-mun.json](geojson/geojs-22-mun.json)
-* RN / Rio Grande do Norte - [geojson/geojs-24-mun.json](geojson/geojs-24-mun.json)
-* SE / Sergipe - [geojson/geojs-28-mun.json](geojson/geojs-28-mun.json)
+## 📍 Projetos e Materiais Disponíveis
 
+### 🗺️ Mapa Coroplético de Santa Catarina no Power BI
+Aprenda a criar um mapa temático do estado de Santa Catarina utilizando arquivos GeoJSON no Power BI.  
+🔗 [mapa-coropletico-santa-catarina-powerbi.md](mapa-coropletico-santa-catarina-powerbi.md)
 
-### Região Sudeste
-* ES / Espírito Santo - [geojson/geojs-32-mun.json](geojson/geojs-32-mun.json)
-* MG / Minas Gerais - [geojson/geojs-31-mun.json](geojson/geojs-31-mun.json)
-* RJ / Rio de Janeiro - [geojson/geojs-33-mun.json](geojson/geojs-33-mun.json)
-* SP / São Paulo - [geojson/geojs-35-mun.json](geojson/geojs-35-mun.json)
+---
+
+### 🧭 Arquivos TopoJSON
+Conjunto de arquivos TopoJSON para uso em projetos de visualização com melhor desempenho e menor tamanho de arquivo.  
+🔗 [topojson-data.md](topojson-data.md)
+
+---
+### 🌎 Dados GeoJSON do Brasil
+Coleção de arquivos GeoJSON com divisões territoriais do Brasil, útil para visualizações geográficas em BI e GIS.  
+🔗 [Geodata-BR.md](Geodata-BR.md)
+
+---
 
 
-### Região Sul
-* PR / Paraná - [geojson/geojs-41-mun.json](geojson/geojs-41-mun.json)
-* RS / Rio Grande do Sul - [geojson/geojs-43-mun.json](geojson/geojs-43-mun.json)
-* SC / Santa Catarina - [geojson/geojs-42-mun.json](geojson/geojs-42-mun.json)
+## 📚 Fontes de Dados
 
+- [IBGE – Instituto Brasileiro de Geografia e Estatística](https://www.ibge.gov.br/)
 
-### Região Centro-Oeste
-* DF / Distrito Federal - [geojson/geojs-53-mun.json](geojson/geojs-53-mun.json) 
-* GO / Goiás - [geojson/geojs-52-mun.json](geojson/geojs-52-mun.json)
-* MT / Mato Grosso - [geojson/geojs-51-mun.json](geojson/geojs-51-mun.json)
-* MS / Mato Grosso do Sul - [geojson/geojs-50-mun.json](geojson/geojs-50-mun.json)
+---
 
-
-### Brasil
-* BR / Brasil - [geojson/geojs-100-mun.json](geojson/geojs-100-mun.json)
-
-### Criar mapa coroplético do Estado de Santa Catarina em PowerBI
-[mapa-coropletico-santa-catarina-powerbi.md](mapa-coropletico-santa-catarina-powerbi.md)
-
-
-
-Fonte dos dados
----------------
-[IBGE](http://ibge.gov.br/)
+🛠️ Contribuições são bem-vindas!  
+Se quiser colaborar com a comunidade Dados 365, fique à vontade para abrir um issue, enviar um pull request ou entrar em contato via [Instagram](https://instagram.com/dados365).
 
 
 Licença
