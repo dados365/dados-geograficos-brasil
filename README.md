@@ -35,7 +35,7 @@ Coleção de arquivos GeoJSON com divisões territoriais do Brasil, útil para v
 ---
 
 🛠️ Contribuições são bem-vindas!  
-Se quiser colaborar com a comunidade Dados 365, fique à vontade para abrir um issue, enviar um pull request ou entrar em contato via [Instagram](https://instagram.com/dados365).
+Se quiser colaborar com a comunidade Dados 365, fique à vontade para abrir um issue, enviar um pull request ou entrar em contato via [Instagram](https://instagram.com/dados_365).
 
 
 Licença
