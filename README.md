@@ -14,6 +14,7 @@ Acompanhe também nossos conteúdos no [Instagram @dados365](https://instagram.c
 Aprenda a criar um mapa temático do estado de Santa Catarina utilizando arquivos GeoJSON no Power BI.  
 🔗 [mapa-coropletico-santa-catarina-powerbi.md](mapa-coropletico-santa-catarina-powerbi.md)
 
+
 ### 📄 Como criar uma tabela com dados aleatórios contendo o nome dos municípios de Santa Catarina
 Tutorial prático para gerar dados fictícios com nomes reais de municípios para uso em simulações e testes.  
 🔗 [instrucoes-criacao-mapa-municipios-santa-catarina.md](instrucoes-criacao-mapa-municipios-santa-catarina.md)
@@ -28,8 +29,12 @@ Criação de mapas estilizados e personalizados no QGIS, desde o shapefile até 
 Coleção de arquivos GeoJSON com divisões territoriais do Brasil, útil para visualizações geográficas em BI e GIS.  
 🔗 [Geodata-BR.md](Geodata-BR.md)
 
+### 🗂️ Arquivos TopoJSON para Mapas no Power BI
+Arquivos TopoJSON dos municípios brasileiros por estado, otimizados para visualizações geográficas no Power BI com mapas coropléticos de formas. Conversão realizada a partir de GeoJSON, com contribuição de Amanda Larissa de Araujo Pantoja.  
+🔗 [topojson.md](topojson.md)
+
 ### 🧭 Arquivos TopoJSON
-Conjunto de arquivos TopoJSON para uso em projetos de visualização com melhor desempenho e menor tamanho de arquivo.  
+Arquivo TopoJSON so estado de Santa Catarina para uso em projetos de visualização com melhor desempenho e menor tamanho de arquivo.  
 🔗 [topojson-data.md](topojson-data.md)
 
 ---
