@@ -10,14 +10,15 @@ Acompanhe também nossos conteúdos no [Instagram @dados_365](https://instagram.
 
 ## 📍 Projetos e Materiais Disponíveis
 
-### 🗺️ Mapa Coroplético de Santa Catarina no Power BI
-Aprenda a criar um mapa temático do estado de Santa Catarina utilizando arquivos GeoJSON no Power BI.  
+
+### 📄 Como criar dados aleatórios para os municípios do Brasil  
+Aprenda a gerar uma base de dados sintética com todos os municípios brasileiros, útil para simulações, testes de visualização ou projetos de análise em escala nacional.  
+🔗 [como-criar-dados-aleatorio-municipio-brasil.md](como-criar-dados-aleatorio-municipio-brasil.md)
+
+### 🗺️ Mapa Coroplético de Santa Catarina no Power BI  
+Aprenda a criar um mapa temático do estado de Santa Catarina utilizando arquivos GeoJSON/TopojJSON no Power BI.  
 🔗 [mapa-coropletico-santa-catarina-powerbi.md](mapa-coropletico-santa-catarina-powerbi.md)
 
-
-### 📄 Como criar uma tabela com dados aleatórios contendo o nome dos municípios de Santa Catarina
-Tutorial prático para gerar dados fictícios com nomes reais de municípios para uso em simulações e testes.  
-🔗 [instrucoes-criacao-mapa-municipios-santa-catarina.md](instrucoes-criacao-mapa-municipios-santa-catarina.md)
 
 ### 🎨 Tutorial: Como criar um Mapa Coroplético Customizado de uma Pessoa
 Criação de mapas estilizados e personalizados no QGIS, desde o shapefile até a aplicação final.  

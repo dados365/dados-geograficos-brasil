@@ -69,5 +69,3 @@ Estas instruções explicam como criar um mapa coroplético personalizado para o
 ## Fonte:
 [Power BI Shape Map Documentation](https://learn.microsoft.com/pt-br/power-bi/visuals/desktop-shape-map)
 
-## Para mais informações:
-Visite [Dicas Universitárias](https://www.dicasuniversitarias.com.br/)
