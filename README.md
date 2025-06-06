@@ -4,7 +4,7 @@
 
 Aqui reunimos materiais e projetos voltados à **Inteligência de Negócios**, **Análise de Dados**, **Excel Avançado**, **Power BI**, **Data Mining** e muito mais. Nosso objetivo é compartilhar conhecimento prático e acessível, especialmente com foco no contexto brasileiro.
 
-Acompanhe também nossos conteúdos no [Instagram @dados365](https://instagram.com/dados365), onde publicamos dicas, tutoriais e novidades sobre o universo dos dados.
+Acompanhe também nossos conteúdos no [Instagram @dados_365](https://instagram.com/dados_365), onde publicamos dicas, tutoriais e novidades sobre o universo dos dados.
 
 ---
 
@@ -42,4 +42,4 @@ Arquivos TopoJSON dos municípios brasileiros por estado, otimizados para visual
 ---
 
 🛠️ Contribuições são bem-vindas!  
-Se quiser colaborar com a comunidade Dados 365, fique à vontade para abrir um issue, enviar um pull request ou entrar em contato via [Instagram](https://instagram.com/dados365).
+Se quiser colaborar com a comunidade Dados 365, fique à vontade para abrir um issue, enviar um pull request ou entrar em contato via [Instagram](https://instagram.com/dados_365).
