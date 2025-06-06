@@ -33,10 +33,6 @@ Coleção de arquivos GeoJSON com divisões territoriais do Brasil, útil para v
 Arquivos TopoJSON dos municípios brasileiros por estado, otimizados para visualizações geográficas no Power BI com mapas coropléticos de formas. Conversão realizada a partir de GeoJSON, com contribuição de Amanda Larissa de Araujo Pantoja.  
 🔗 [topojson.md](topojson.md)
 
-### 🧭 Arquivos TopoJSON
-Arquivo TopoJSON so estado de Santa Catarina para uso em projetos de visualização com melhor desempenho e menor tamanho de arquivo.  
-🔗 [topojson-data.md](topojson-data.md)
-
 ---
 
 ## 📚 Fontes de Dados
