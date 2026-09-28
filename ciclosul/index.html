@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="CicloSul — bicicletas compartilhadas em Florianópolis. Site fictício para fins didáticos.">
+  <title>CicloSul | Floripa sobre duas rodas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="teaching-banner">Projeto fictício para fins didáticos — CIN7903 / Inteligência Competitiva</div>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="CicloSul início">
+      <img src="assets/logo.svg" alt="CicloSul" width="156" height="42">
+    </a>
+    <nav aria-label="Principal">
+      <a href="#planos">Planos</a><a href="#rede">Nossa rede</a><a href="#novidades">Novidades</a><a href="#faq">Como funciona</a>
+    </nav>
+    <a class="button small" href="#planos">Quero pedalar</a>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">MOBILIDADE COMPARTILHADA • FLORIANÓPOLIS</span>
+        <h1>Floripa sobre<br><em>duas rodas.</em></h1>
+        <p>Vá mais longe, evite o trânsito e descubra a cidade de um jeito leve. Bicicletas e e-bikes disponíveis todos os dias.</p>
+        <div class="hero-actions"><a class="button" href="#planos">Conhecer planos</a><a class="text-link" href="#rede">Ver nossa rede →</a></div>
+        <div class="trust"><span>✓ Sem taxa de adesão</span><span>✓ Desbloqueio pelo app</span><span>✓ Suporte 7 dias</span></div>
+      </div>
+      <div class="hero-art"><img src="assets/hero-bike.svg" alt="Ilustração de bicicleta da CicloSul na orla de Florianópolis"></div>
+    </section>
+
+    <section class="section" id="planos">
+      <div class="section-heading"><span class="eyebrow">PLANOS E TARIFAS</span><h2>Escolha como você quer pedalar</h2><p>Do passeio rápido à rotina diária. Você pode mudar de plano quando quiser.</p></div>
+      <div class="plans">
+        <article class="card plan" data-plan="avulso">
+          <div class="icon">◷</div><h3>Passeio</h3><p class="muted">Para uma volta rápida</p>
+          <div class="price"><span class="currency">R$</span><strong id="preco-avulso" data-scrape="price-single">8,90</strong><span>/ 30 min</span></div>
+          <ul><li>1 bicicleta por vez</li><li>Desbloqueio por QR Code</li><li>Pagamento por uso</li></ul><a href="#" class="outline">Começar agora</a>
+        </article>
+        <article class="card plan featured" data-plan="mensal">
+          <span class="badge">MAIS ESCOLHIDO</span><div class="icon">↻</div><h3>Floripa Mensal</h3><p class="muted">Para quem pedala sempre</p>
+          <div class="price"><span class="currency">R$</span><strong id="preco-mensal" data-scrape="price-monthly">39,90</strong><span>/ mês</span></div>
+          <ul><li>Até 4 viagens por dia</li><li>60 minutos por viagem</li><li>E-bikes incluídas</li></ul><a href="#" class="button full">Assinar mensal</a>
+        </article>
+        <article class="card plan" data-plan="anual">
+          <div class="icon">♢</div><h3>Floripa Anual</h3><p class="muted">O melhor custo por mês</p>
+          <div class="price"><span class="currency">R$</span><strong id="preco-anual" data-scrape="price-yearly">349,90</strong><span>/ ano</span></div>
+          <ul><li>Benefícios do plano mensal</li><li>2 meses de economia</li><li>Prioridade em campanhas</li></ul><a href="#" class="outline">Assinar anual</a>
+        </article>
+      </div>
+      <div class="promo" id="promocao" data-scrape="promotion"><span>⚡ OFERTA DE PRIMAVERA</span><strong>Primeiro mês por <b id="preco-promocional">R$ 19,90</b></strong><small>Oferta válida até <time id="validade-promocao" datetime="2026-10-15">15/10/2026</time>. Novas assinaturas.</small></div>
+    </section>
+
+    <section class="network" id="rede">
+      <div class="network-art"><img src="assets/map-floripa.svg" alt="Mapa ilustrativo da rede CicloSul em Florianópolis"></div>
+      <div class="network-copy"><span class="eyebrow">NOSSA REDE HOJE</span><h2>Uma rede que cresce com Floripa.</h2><p>Da Beira-Mar ao Sul da Ilha, conectamos bairros, universidades, centros comerciais e pontos de lazer.</p>
+        <div class="stats">
+          <div><strong id="total-bicicletas" data-scrape="fleet-total">428</strong><span>bicicletas</span></div>
+          <div><strong id="total-ebikes" data-scrape="fleet-electric">96</strong><span>e-bikes</span></div>
+          <div><strong id="total-estacoes" data-scrape="stations-total">37</strong><span>estações</span></div>
+          <div><strong id="total-bairros" data-scrape="neighborhoods-total">12</strong><span>bairros</span></div>
+        </div>
+        <p class="coverage"><b>Áreas atendidas:</b> Centro, Trindade, Itacorubi, Agronômica, Córrego Grande, Santa Mônica, Pantanal, Saco dos Limões, Lagoa da Conceição, Coqueiros, Estreito e João Paulo.</p>
+      </div>
+    </section>
+
+    <section class="section news-section" id="novidades">
+      <div class="section-heading left"><span class="eyebrow">MOVIMENTOS DA CICLOSUL</span><h2>Novidades</h2><p>Acompanhe expansões, parcerias e mudanças no serviço.</p></div>
+      <div class="news-grid" id="noticias" data-scrape="news-list">
+        <article class="news-card" data-news-id="expansao-2026-10"><div class="news-img expansion">↗</div><div class="news-body"><time datetime="2026-09-25">25 SET 2026</time><h3 id="titulo-expansao">CicloSul chega ao Campeche e Itacorubi em outubro</h3><p id="texto-expansao">A expansão prevê 6 novas estações e reforço da frota de e-bikes nos dois bairros.</p><span class="tag">EXPANSÃO</span></div></article>
+        <article class="news-card" data-news-id="parceria-uf-ilha"><div class="news-img partnership">◎</div><div class="news-body"><time datetime="2026-09-18">18 SET 2026</time><h3>Nova parceria com a Universidade da Ilha</h3><p>Estudantes e servidores terão condições especiais no plano mensal a partir de outubro.</p><span class="tag">PARCERIA</span></div></article>
+        <article class="news-card" data-news-id="ebikes"><div class="news-img ebike">⚡</div><div class="news-body"><time datetime="2026-09-08">08 SET 2026</time><h3>Mais e-bikes na Beira-Mar e no Centro</h3><p>Novas unidades entram em operação para ampliar a disponibilidade nos horários de pico.</p><span class="tag">OPERAÇÃO</span></div></article>
+      </div>
+    </section>
+
+    <section class="how" id="faq"><div class="section-heading"><span class="eyebrow">SIMPLES ASSIM</span><h2>Pedale em três passos</h2></div><div class="steps"><div><b>01</b><h3>Abra o app</h3><p>Encontre a estação e veja bikes disponíveis.</p></div><div><b>02</b><h3>Leia o QR Code</h3><p>Desbloqueie a bicicleta em poucos segundos.</p></div><div><b>03</b><h3>Pedale e devolva</h3><p>Finalize a viagem em qualquer estação CicloSul.</p></div></div></section>
+  </main>
+
+  <footer><div><img src="assets/logo-light.svg" alt="CicloSul" width="150"><p>Mobilidade leve para uma ilha em movimento.</p></div><div><b>CicloSul Mobilidade S.A.</b><span>Empresa fictícia para atividade acadêmica.</span><span>Florianópolis • Santa Catarina</span></div><div class="updated">Última atualização do site<br><time id="ultima-atualizacao" data-scrape="last-updated" datetime="2026-09-28T08:00:00-03:00">28/09/2026 • 08:00</time></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
